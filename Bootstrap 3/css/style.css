@@ -9,7 +9,6 @@
 
 .carousel {
   height: 500px;
-  margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -91,6 +90,27 @@
 
 
 #mune{
-    background-image: url(/img/bricks.jpg);
+    background: white url('../img/bricks.jpg');
    
+}
+
+.rasch{
+    background: red url('../img/sofa1.jpg');
+}
+
+.fir > li{
+    text-align: center;
+    display: inline-block;
+    padding-top: 30px;
+}
+
+.sec > li{
+    display: inline-block;
+    text-align: center;
+    float: right;
+    padding-top: 30px;
+}
+
+#logo1{
+    text-align: center;
 }
