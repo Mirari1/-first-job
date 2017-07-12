@@ -242,7 +242,13 @@
                          <h4 class="modal-title">Название окна</h4>
                     </div>
                      <div class="modal-body">
-                         <p>Это модальное окно</p>
+                         <form class="consul" method="POST">
+                             <p style="color: white; font: 18px bold;">Бесплатная консультация дизайнера</p>
+                             <input placeholder="Ваше имя" type="text" name="first_name" style="width: 90%; background-color: black; color: white; font-size: 16px; border: 0; "><hr style="margin-bottom: 8px; width: 90%;">
+                             <input placeholder="Ваш номер телефона" type="tel" name="phone" style="width: 90%; background-color: black; color: white; font-size: 16px; border: 0;"><hr style="margin-bottom: 8px; width: 90%;">
+                             <input placeholder="Ваш E-mail" type="email" name="email" style="width: 90%; background-color: black; color: white; font-size: 16px; border: 0;"><hr style="margin-bottom: 8px; width: 90%;">
+                             <input class="inp" type="submit" value="ЗАКАЗАТЬ">
+                         </form>
                      </div>
                     <div class="modal-footer">
                          <button class="btn btn-danger" type="button" data-dismiss="modal">Отмена</button>
@@ -297,31 +303,33 @@
 
 							 
 		    <div id="tsena" class="rasch">   
-                <h2 class="zagl">Рассчитайте стоимость вашей картины</h2>  
-				<div class="row firstl">
-                    <div class="col-md-4">
-				        <p class="title2">Выберите размер</p>
-				            <ul style="">
-				                <li class="proportions"><p><button id="bo" onclick="foo()">20x20</button></p></li>
-								<li class="proportions"><p><button id="bo" onclick="foo1()">20x30</button></p></li>
-								<li class="proportions"><p><button id="bo" onclick="fo()">30x30</button></p></li>
-								<br>
-								<li class="proportions"><p><button id="bo" onclick="fol()">30x45</button></p></li>
-								<li class="proportions"><p><button id="bo" onclick="foa()">40x40</button></p></li>
-								<li class="proportions"><p><button id="bo" onclick="flo()">40x60</button></p></li>
-							 	<br>
-								<li class="proportions"><p><button id="bo" onclick="fla()">50x50</button></p></li>
-								<li class="proportions"><p><button id="bo" onclick="fll()">50x60</button></p></li>
-								<li class="proportions"><p><button id="bo" onclick="fok()">60x90</button></p></li>
-							</ul>
+                <h1 class="zagl">Рассчитайте стоимость вашей картины</h1>  
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <ul style="">
+                                <p class="title2">Выберите размер</p>
+                                <li class="proportions"><p><button id="bo" onclick="foo()">20x20</button></p></li>
+                                <li class="proportions"><p><button id="bo" onclick="foo1()">20x30</button></p></li>
+                                <li class="proportions"><p><button id="bo" onclick="fo()">30x30</button></p></li>
+                                <br>
+                                <li class="proportions"><p><button id="bo" onclick="fol()">30x45</button></p></li>
+                                <li class="proportions"><p><button id="bo" onclick="foa()">40x40</button></p></li>
+                                <li class="proportions"><p><button id="bo" onclick="flo()">40x60</button></p></li>
+                                <br>
+                                <li class="proportions"><p><button id="bo" onclick="fla()">50x50</button></p></li>
+                                <li class="proportions"><p><button id="bo" onclick="fll()">50x60</button></p></li>
+                                <li class="proportions"><p><button id="bo" onclick="fok()">60x90</button></p></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="pic" src="img/picture.png">							
+                            <textarea id="1" disabled class="textarea"></textarea>	
+                            <div style="text-align: center; padding-bottom: 50px;">		
+                                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal-1">ЗАКАЗАТЬ</button>
+                            </div>
+                        </div>	
                     </div>
-                    <div class="col-md-4">
-                        <img class="pic" src="img/picture.png">							
-				        <textarea id="1" disabled class="textarea"></textarea>	
-				        <div style="text-align: center">		
-				            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal-1">ЗАКАЗАТЬ</button>
-				        </div>
-                    </div>	
 				</div>	
 			</div>
 		
